@@ -1,0 +1,1 @@
+export {default as Dynacard} from './comp/Card'
