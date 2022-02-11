@@ -25,7 +25,7 @@ function HeadLinks({links}) {
     }
 }
 
-export default class Card extends Component {
+export default class Dynacard extends Component {
 	constructor(props) {
 		super(props)
 
