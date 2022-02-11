@@ -1,2 +1,2 @@
-import Dynacard from './comp/dynacard'
+import Dynacard from './comp/Dynacard'
 export default Dynacard
