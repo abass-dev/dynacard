@@ -6,7 +6,8 @@ import {
     TouchableOpacity,
     ImageBackground,
     View,
-    Text
+    Text,
+    Button
 } from 'react-native'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import style from './Style'
@@ -39,7 +40,7 @@ export default class Dynacard extends Component {
         super(props)
     }
 
-    render() {
+    render() { 
         return (
             <View style={style.cardContainer}>
 	            <ImageBackground source={this.props.image} resizeMode="cover" style={ { width: 'auto', height: 'auto' }}>
@@ -51,6 +52,9 @@ export default class Dynacard extends Component {
                 <View style={style.descriptionContainer}>
                     <Text style={style.lansUsed}><Ionicons name="code" color="#777" size={20} /> {this.props.lansUsed}</Text>
                     <Text style={style.description}>{this.props.description}</Text>
+                    <View style={{marginVertical: 15}}>
+                        <Button onPress={() => openLink(this.props.btnGo.link)} title={this.props.btnGo.title} />
+                    </View>
                 </View>
 	        </View>
         )
