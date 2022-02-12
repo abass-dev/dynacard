@@ -4,7 +4,9 @@ import React, {
 import {
     Linking,
     TouchableOpacity,
-    ImageBackground
+    ImageBackground,
+    View,
+    Text
 } from 'react-native'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import style from './Style'
@@ -35,7 +37,6 @@ function HeadLinks({links}) {
 export default class Dynacard extends Component {
     constructor(props) {
         super(props)
-
     }
 
     render() {
@@ -51,7 +52,7 @@ export default class Dynacard extends Component {
                     <Text style={style.lansUsed}><Ionicons name="code" color="#777" size={20} /> {this.props.lansUsed}</Text>
                     <Text style={style.description}>{this.props.description}</Text>
                 </View>
-	   </View>
+	        </View>
         )
     }
 }
