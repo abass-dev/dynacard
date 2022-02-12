@@ -12,20 +12,17 @@ npm i dynacard
 ## Usage
 ```javascript
 import React, { Component } from 'react'
-import {
-    SafeAreaView,
-    ScrollView
-} from 'react-native'
-import style from '../Style'
+import { SafeAreaView, ScrollView } from 'react-native'
 import Dynacard from 'dynacard'
+import style from '../Style'
 
 class Project extends Component {
     constructor(props) {
         super(props)
-
     }
 
     render() {
+       
         let links = [{
                 name: "Github",
                 link: "https://github.com/nigatedev/abassdev"
@@ -48,6 +45,15 @@ class Project extends Component {
                         headLinks={links}
                         lansUsed="PHP, JavaScript"
                         description="Card description, Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        btnGo={{title: 'Go somewhere', link: 'https://todaydevs.com'}}
+                    />
+                    <Dynacard
+                        image={require("../assets/images/php_code.jpg")}
+                        title="WRITE YOUR CART TITLE HERE"
+                        headLinks={links}
+                        lansUsed="PHP, JavaScript"
+                        description="Card description, Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        btnGo={{title: 'Go somewhere', link: 'https://todaydevs.com'}}
                     />
 	            </ScrollView>
 	        </SafeAreaView>
@@ -58,5 +64,5 @@ class Project extends Component {
 export default Project
 ```
 
-## Example
+## Result
 <img src="screenshot.jpg" alt="screenshot" />
