@@ -1,5 +1,6 @@
+import { StyleSheet } from 'react-native'
 
-export default const style = StyleSheet.create({
+export default StyleSheet.create({
     cardContainer: {
         borderWidth: 0.5,
         borderRadius: 5,
