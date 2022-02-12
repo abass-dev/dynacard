@@ -4,13 +4,10 @@ import React, {
 import {
     Linking,
     TouchableOpacity,
-    ImageBackground,
-    Dimensions,
-    StyleSheet,
-    View,
-    Text
+    ImageBackground
 } from 'react-native'
 import Ionicons from '@expo/vector-icons/Ionicons'
+import style from './Style'
 
 function openLink(url) {
     if (Linking.canOpenURL(url)) {
@@ -18,9 +15,7 @@ function openLink(url) {
     }
 }
 
-function HeadLinks( {
-    links
-}) {
+function HeadLinks({links}) {
     if (links != undefined) {
         return links.map((props, index) => {
             return(
@@ -60,34 +55,3 @@ export default class Dynacard extends Component {
         )
     }
 }
-
-    const style = StyleSheet.create({
-        cardContainer: {
-            //alignItems: 'center',
-            borderWidth: 0.5,
-            borderRadius: 5,
-            borderColor: "#777",
-            padding: 3,
-            marginHorizontal: 20,
-            marginBottom: 20
-        },
-        title: {
-            color: '#fff',
-            fontSize: 25,
-            padding: 10,
-            fontWeight: 'bold'
-        },
-        description: {
-            color: '#fff',
-            fontSize: 17,
-            fontFamily: 'monospace'
-        },
-        descriptionContainer: {
-            padding: 7
-        },
-        lansUsed: {
-            color: '#777',
-            fontSize: 17,
-            marginBottom: 5
-        }
-    })
