@@ -1,6 +1,6 @@
 {
   "name": "dynacard",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Dynamic card for your react native app",
   "main": "src/index.js",
   "repository": "https://github.com/abass-dev/dynacard",
