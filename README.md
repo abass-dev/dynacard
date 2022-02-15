@@ -25,15 +25,15 @@ class Project extends Component {
        
         let links = [{
                 name: "Github",
-                link: "https://github.com/nigatedev/abassdev"
+                link: "https://github.com/abass-dev"
             },
             {
                 name: "Facebook",
                 link: "https://m.facebook.com/abasscheik.ben"
             },
             {
-                name: "Twitter",
-                link: "https://twitter.com/abasscheik1"
+                name: "Todaydevs",
+                link: "https://todaydevs.com"
             },
         ]
         return(
