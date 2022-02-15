@@ -12,6 +12,15 @@ import {
 import Ionicons from '@expo/vector-icons/Ionicons'
 import style from './Style'
 
+export function DynacardContainer ({bg, children}) {
+    bg = "#000f12"
+    return (
+        <View style={{backgroundColor: bg}}>
+            {children}
+        </View>
+    )
+}
+
 function openLink(url) {
     if (Linking.canOpenURL(url)) {
         return Linking.openURL(url)
