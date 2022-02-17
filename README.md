@@ -1,4 +1,4 @@
-Dynacard is open-source ReactNative library that can help you to easily create nice cards for your ReactNative application.
+Dynacard is an open-source ReactNative library that can help you easily create beautiful cards for your ReactNative application.
 ## Installation
 yarn
 
