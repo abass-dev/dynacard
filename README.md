@@ -1,4 +1,4 @@
-### Dynamic cards for your react native app
+### Dynacard is open-source ReactNative library that can help you to easily create nice cards for your ReactNative application.
 ## Installation
 yarn
 
