@@ -68,4 +68,4 @@ export default Project
 <img src="screenshot.jpg" alt="screenshot" />
 
 ## Contact
-If you want to contribute to this famous project or found any bug, please contact us here abassthedev@gmail.com OR abass@todaydevs.com
+If you want to contribute to this famous project or found any bug, please contact us here abassthedev@gmail.com OR abass@abassdev.com
