@@ -1,10 +1,10 @@
 {
   "name": "dynacard",
-  "version": "1.2.2",
-  "description": "Dynamic card for your react native app",
+  "version": "1.5.0",
+  "description": "Dynamic for your react native app cards",
   "main": "src/index.js",
   "repository": "https://github.com/abass-dev/dynacard",
-  "author": "AbassDev <abassdev@todaydevs.com> (https://abassdev.com)",
+  "author": "Abass Dev <abassdev@todaydevs.com> (https://abassdev.com)",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,11 +16,5 @@
   ],
   "bugs": {
     "url": "https://github.com/abass-dev/dynacard/issues"
-  },
-  "dependencies": {
-    "react-native": "0.64.3"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.9"
   }
 }
